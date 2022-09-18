@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*background-color: orange;*/
+}
+
+body {
+    background-color: orange;
+}
+
+.Menu-container {
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+}
+
+.Menu-item {
+    /*background-color: black;*/
+    color: white;
+    border: 4px solid white;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.Img-Logo {
+    height: 90px;
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+.Grid-Presentacion {
+    align-items: center;
+    padding: 4px;
+    gap: 5px;
+}
+
+.Grid-Presentacion-Item {
+    width: 100%;
+    text-align: center;
+    text-size-adjust: 100%;
+    font-family: 'AnotherDay';
+    font-size: 20px;
+}
+
+.Img-Presentacion {
+    height: 300px;
+    width: 100%;
+}
+
+.Grid-Productos {
+    display: flexbox;
+    background: rgb(201, 148, 88);
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+
+}
+
+.Grid-Productos-Item {
+    width: 100%;
+    text-align: center;
+    text-size-adjust: 100%;
+    font-family: 'AnotherDay';
+    font-size: 1.5rem;
+    
+}
+
+@keyframes enUltimasNoticias {
+    0% {
+        background-image: linear-gradient(red,yellow);
+    }
+    50% {
+        background-image: linear-gradient(yellow,red);    
+    }
+    100% {
+        background-image: linear-gradient(red,orange);  
+    }
+}
+
+.UltimasNoticias{
+    width: 100%;
+    height: 90px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: 100%;
+    font-family: 'AnotherDay';
+    font-size: 10rem;
+    border: 2px solid rgb(129, 28, 28);
+    animation-name: enUltimasNoticias;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+   /* background-image: linear-gradient(red,yellow);*/
+}
+
+
+.margen-section1 {
+    margin-top: 70px;
+    background-color: black;
+}
+
+.margen-section {
+    margin-top: 40px;
+}
+
+.footer {
+    margin-top: 70px;
+    background-color: black;
+    display: grid;
+    flex-flow: row nowrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    color: orange;
+    position: sticky;
+}
+
+.cabezal-tabla {
+    color: red;
+}
+
+.Menu-promocion {
+    background-color: orange;
+    padding: 4px;
+    display: flex;
+    gap: 5px;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.Promocion-item {
+    color: rgb(3, 2, 2);
+    border: 3px solid black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.Img-promocion {
+    height: 250px;
+    width: 100%;
+    color: black;
+}
+
+.texto1 {
+    padding: 10px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: black;
+    background-image: linear-gradient(red,yellow);
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 14% 100% 100%;
+    grid-template-columns: 1fr;
+    grid-row-gap: 5px;
+    grid-template-areas: 
+    "header header"
+    "main main" 
+    "footer footer";
+    width: 100%;
+    background-color: #ffc107;
+}
+
+#header{
+    grid-area: header;
+}
+
+#main{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: footer;
+    align-self: end;
+}

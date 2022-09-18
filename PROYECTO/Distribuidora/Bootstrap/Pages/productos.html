@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tags SEO-->
+    <title>Distribuidora El Canario</title>
+    <meta name="description" content="Bienvenidos a Distribuidora el Canario
+        Somos una Distribuidora de productos en general, ubicada en el Departamento de Florida.
+        Desde el año 2000 nos hemos dedicado a proveer una alta variedad de productos, de
+        diferentes maras y portafolio.">
+    <link rel="stylesheet" href="/Distribuidora/Bootstrap/scss/Productos/productos.css">
+    <link rel="stylesheet" href="/Distribuidora/Bootstrap/css/productos.css">
+    <script src="/js/Producto.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body onload ="cargarDatos()" class="grid">
+    <header id="header">
+        <nav class="navbar navbar-danger navbar-expand-lg" style="background-color: #ffffff;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Distribuidora/Bootstrap/index.html">
+                    <img class="Img-Logo" src="/Distribuidora/Bootstrap/Imagenes/Dist.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Distribuidora/Bootstrap/index.html">
+                                INICIO </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="/Distribuidora/Bootstrap/Pages/nosotros.html"> NOSOTROS </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="/Distribuidora/Bootstrap/Pages/contacto.html"> CONTACTO </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="/Distribuidora/Bootstrap/Pages/productos.html"> PRODUCTOS </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">BUSCAR</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="margen-section">
+            <div class="fondo">
+                <h3>Mantenimiento de Productos</h3>
+            </div>
+        </section>
+        <div id="avisos"></div>
+        <section class="margen-section">
+            <section class="Menu-container2">
+                <input type="text" placeholder="Producto Nombre..." id="input_producto">
+                <input type="text" placeholder="Marca..." id="ProductoMarca">
+                <input type="text" placeholder="Precio..." id="ProductoPrecio">
+                <button type="submit" id="btn_agregar">Agregar</button>
+                <button type="button" id="deleteProductos">Eliminar Productos</button>
+
+
+            </section>
+            <div id="lista" style="margin-top: 10px; justify-content: center;" class="row"></div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <section class="footer-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <img class="Img-Logo2" src="/Distribuidora/Bootstrap/Imagenes/Mapa.JPG" alt="MAPA">
+                    </div>
+                    <div class="col">
+                        <img class="Img-Logo2" src="/Distribuidora/Bootstrap/Imagenes/Dist.png" alt="LOGO">
+                    </div>
+                    <div class="col">
+                        <img class="Img-Logo2" src="/Distribuidora/Bootstrap/Imagenes/DatosEmpresa.jpg" alt="INFO">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="/js/productos.js"></script>
+    <script src="/js/Producto.js"></script>
+    <script src="/js/cargaproductos.js"></script>
+</body>
+
+</html>

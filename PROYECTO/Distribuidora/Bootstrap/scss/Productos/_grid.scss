@@ -1,0 +1,11 @@
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12% 100% 12%;
+    grid-row-gap: 3px;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    width: 100%;
+}

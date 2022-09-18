@@ -1,0 +1,144 @@
+@import 'mapa';
+
+.margen-section {
+    margin-top: 40px;
+
+    .Grid-Presentacion {
+        flex-flow: row nowrap;
+        align-items: center;
+        padding: 4px;
+        gap: 5px;
+        text-align: -webkit-center;
+
+        .Grid-Presentacion-Item {
+            width: 100%;
+            text-align: center;
+            text-size-adjust: 100%;
+            font-family: cursive;
+            font-size: 25px;
+
+            .Img-Presentacion {
+                height: 300px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.margen-section2 {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: map-get($colores, presentacionbg);
+    width: 100%;
+    justify-content: center;
+
+    .texto2 {
+        padding: 10px;
+        font-family: cursive;
+        font-size: 60px;
+        color: rgb(141, 8, 8);
+    }
+}
+
+.margen-section {
+    margin-top: 40px;
+
+    .Menu-promocion {
+        background-color: map-get($colores, fondoproductos);
+        padding: 4px;
+        display: flex;
+        gap: 5px;
+        flex-flow: row nowrap;
+        align-items: center;
+        font-family: sans-serif;
+
+        .Promocion-item {
+            color: rgb(3, 2, 2);
+            border: 3px solid black;
+            width: 100%;
+            height: auto;
+            text-align: center;
+
+            .Img-promocion {
+                height: 250px;
+                width: 100%;
+                color: black;
+            }
+        }
+    }
+}
+
+.margen-section {
+    margin-top: 40px;
+
+    .texto1 {
+        padding: 10px;
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+        color: black;
+        background-image: linear-gradient(rgb(141, 8, 8), rgb(241, 172, 67));
+        text-align: center;
+
+        .Img-Presentacion {
+            height: 200px;
+            width: 100%;
+        }
+    }
+}
+
+@keyframes enUltimasNoticias {
+    0% {
+        background-image: linear-gradient(red, yellow);
+    }
+
+    50% {
+        background-image: linear-gradient(yellow, red);
+    }
+
+    100% {
+        background-image: linear-gradient(red, orange);
+    }
+}
+
+.margen-section1 {
+    margin-top: 70px;
+    background-color: black;
+
+    .UltimasNoticias {
+        width: 100%;
+        height: 90px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-size-adjust: 100%;
+        font-family: 'AnotherDay';
+        font-size: 10rem;
+        border: 2px solid rgb(129, 28, 28);
+        animation-name: enUltimasNoticias;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+
+        h3 {
+            a {
+                color: black
+            }
+        }
+    }
+
+}
+
+
+.Grid-Presentacion--FondoN {
+    @extend .Grid-Presentacion;
+    background: map-get($colores, presentacionbg);
+}
+
+.Grid-Presentacion--FondoB {
+    @extend .Grid-Presentacion;
+    background: white;
+}

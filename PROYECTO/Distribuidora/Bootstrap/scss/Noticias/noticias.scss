@@ -1,0 +1,23 @@
+* {
+    padding: 1;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import 'grid';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+#header {
+    grid-area: header;
+}
+
+#main {
+    grid-area: main;
+}
+
+#footer {
+    grid-area: footer;
+    align-self: end;
+}

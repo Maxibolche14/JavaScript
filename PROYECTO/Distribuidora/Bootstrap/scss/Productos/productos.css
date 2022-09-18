@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 12% 100% 12%;
+      grid-template-rows: 12% 100% 12%;
+  grid-row-gap: 3px;
+      grid-template-areas: "header header"
+ "main main"
+ "footer footer";
+  width: 100%;
+}
+
+.nav-item {
+  font-family: Impact;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.Img-Logo {
+  height: 100px;
+  width: 100%;
+}
+
+.margen-section {
+  margin-top: 80px;
+}
+
+.margen-section .fondo {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: -webkit-center;
+  background-color: #cf9c3b;
+}
+
+.margen-section .fondo h3 {
+  font-family: Cursive;
+  color: #941111;
+}
+
+.margen-section {
+  margin-top: 80px;
+}
+
+.margen-section .Grid-Presentacion, .margen-section .Grid-Presentacion--FondoN, .margen-section .Grid-Presentacion--FondoB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  gap: 5px;
+  text-align: -webkit-center;
+}
+
+.Grid-Presentacion--FondoN {
+  background: #cf9c3b;
+}
+
+.Grid-Presentacion--FondoB {
+  background: white;
+}
+
+.footer-section {
+  background-color: #dfb48c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  color: orange;
+  padding: 5px;
+  width: 100%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Img-Logo2 {
+  height: 220px;
+  width: 100%;
+}
+
+#header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+}
+
+#main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+}
+
+#footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+/*# sourceMappingURL=productos.css.map */

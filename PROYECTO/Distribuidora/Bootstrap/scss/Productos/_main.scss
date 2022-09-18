@@ -1,0 +1,122 @@
+@import 'mapa';
+
+.margen-section {
+    margin-top: 80px;
+
+    .fondo {
+        flex-flow: row nowrap;
+        align-items: center;
+        text-align: -webkit-center;
+        background-color: map-get($colores, presentacionbg);
+
+        h1 {
+            font-family: Cursive;
+            color: map-get($colores, textoproducto);
+        }
+    }
+}
+
+.margen-section2 {
+    margin-top: 60px;
+
+    .Grid-Presentacion {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        padding: 5px;
+        gap: 5px;
+        text-align: -webkit-center;
+
+    }
+}
+
+.Grid-Presentacion--FondoN {
+    @extend .Grid-Presentacion;
+    background: map-get($colores, presentacionbg);
+}
+
+.Grid-Presentacion--FondoB {
+    @extend .Grid-Presentacion;
+    background: white;
+}
+
+
+.Menu-container {
+    background-color: orange;
+    padding: 5px;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: -webkit-center;
+    margin-top: 80px;
+
+}
+
+.Menu-item {
+    /*background-color: black;*/
+    color: rgb(63, 59, 59);
+    border: 4px solid rgb(148, 17, 17);
+    height: auto;
+    text-align: center;
+    background-color: rgb(235, 179, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.fondo {
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: -webkit-center;
+    background-color: rgb(207, 156, 59);
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Cursive;
+    color: rgb(148, 17, 17);
+}
+
+ul {
+    /*background-color: black;*/
+    color: rgb(63, 59, 59);
+    border: 4px solid rgb(148, 17, 17);
+    height: auto;
+    background-color: rgb(245, 201, 120);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: left;
+    width: 100%;
+    gap: 10px;
+    padding: 50px;
+}
+
+input {
+    font-size:larger;
+}
+
+button {
+    background-color: rgb(233, 193, 84);
+    border: 4px solid rgb(148, 17, 17);
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.card_producto {
+    border: 1px solid #9e9e9e;
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+    
+}
+.nodisponible{
+    width: 40%;
+}
