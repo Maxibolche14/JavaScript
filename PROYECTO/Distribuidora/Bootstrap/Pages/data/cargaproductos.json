@@ -4,19 +4,19 @@
             "ProductoNombre": "Axe Apollo",
             "ProductoMarca": "Axe",
             "PrecioProducto": "120",
-            "imagen": ["/Imagenes/Productos/AxeApollo.png"]
+            "imagen": "../Imagenes/Productos/AxeApollo.png"
         },
         {
             "ProductoNombre": "Dove Exrteme Shampoo",
             "ProductoMarca": "Dove",
             "PrecioProducto": "120",
-            "imagen": ["/Imagenes/Productos/DoveExtreme.png"]
+            "imagen": "../Imagenes/Productos/DoveExtreme.png"
         },
         {
             "ProductoNombre": "Dove Invisible Man",
             "ProductoMarca": "Dove",
             "PrecioProducto": "130",
-            "imagen": ["/Imagenes/Productos/DoveInvisibleMan.png"]
+            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
         }
     ]
 }
