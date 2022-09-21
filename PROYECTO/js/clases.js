@@ -1,5 +1,8 @@
 /* Métodos generales que vamos a usar en todos lados */
+var listaCarrito = []
 class Storage {
+
+
     static getLocalStorage(key) {
         return localStorage.getItem(key) ? JSON.parse(localStorage.getItem(key)) : [];
     }
@@ -9,7 +12,13 @@ class Storage {
     }
 
     static getProductoById(id) {
-        return cargaproductos.Productos.find(producto => producto.id == id);
+        fetch('./data/cargaproductos.json')
+            .then((res) => res.json())
+            .then((productos) => {
+                listaCarrito.push(productos.Productos.find(producto => producto.id == id));
+                this.setLocalStorage("carrito",listaCarrito);
+                return productos.Productos.find(producto => producto.id == id)
+            })
     }
 }
 

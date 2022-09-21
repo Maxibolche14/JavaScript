@@ -2,7 +2,7 @@ let lista = document.getElementById("lista");
 
 function cargoProductos() {
 
-   fetch('./data/cargaproductos.json')
+    fetch('./data/cargaproductos.json')
         .then((res) => res.json())
         .then((productos) => {
             console.log(productos);
@@ -30,16 +30,36 @@ function generar_card(producto) {
     new_Nombre.textContent = producto.ProductoNombre;
 
     let new_Marca = document.createElement("p");
-    new_Marca.textContent ="Marca: " + producto.ProductoMarca;
+    new_Marca.textContent = "Marca: " + producto.ProductoMarca;
 
     let new_Precio = document.createElement("p");
     new_Precio.textContent = "Precio: $" + producto.PrecioProducto;
 
+    let new_Agregar = document.createElement("button");
+    new_Agregar.textContent = "Agregar";
+    new_Agregar.id = producto.id;
+    new_Agregar.onclick = function (producto) {
+        //ohSnap('Producto Agregado correctamente', {color:'green', duration:"500000"});  // alert will have class 'alert-color'
+       agregarProducto(producto.target.id);
+    }
+
+
     div_container.appendChild(new_Nombre);
     div_container.appendChild(new_Marca);
     div_container.appendChild(new_Precio);
+    div_container.appendChild(new_Agregar);
     new_div.appendChild(div_container);
 
     lista.appendChild(new_div);
- 
+
+}
+
+function mostraralerta() {
+    ohSnap('Producto Agregado correctamente', { color: 'green', duration: "500000" });  // alert will have class 'alert-color'
+
+}
+
+async function agregarProducto(id) {
+    let producto = await Storage.getProductoById(id);
+    console.log(producto);
 }

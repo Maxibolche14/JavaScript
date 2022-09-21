@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 
-.grid {
+/*.grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -17,7 +17,7 @@
  "main main"
  "footer footer";
   width: 100%;
-}
+}*/
 
 .nav-item {
   font-family: Impact;
@@ -31,7 +31,7 @@
 }
 
 .margen-section {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .margen-section .fondo {
@@ -52,7 +52,7 @@
 }
 
 .margen-section {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .margen-section .Grid-Presentacion, .margen-section .Grid-Presentacion--FondoN, .margen-section .Grid-Presentacion--FondoB {
@@ -98,7 +98,7 @@
           align-items: center;
 }
 
-.Img-Logo2 {
+.Img-Logo3 {
   height: 220px;
   width: 100%;
 }
