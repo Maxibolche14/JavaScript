@@ -36,3 +36,11 @@ button {
     margin-top: 80px;
 
 }
+img{
+    width: 100%;
+}
+
+h3{
+    background-color: rgb(212, 164, 73);
+    font-family: 'Franklin Gothic Medium';
+}

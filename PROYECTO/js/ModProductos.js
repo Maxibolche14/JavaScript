@@ -26,7 +26,7 @@ function generar_card(producto) {
 
     new_div.appendChild(img_producto);
 
-    let new_Nombre = document.createElement("h2");
+    let new_Nombre = document.createElement("h3");
     new_Nombre.textContent = producto.ProductoNombre;
 
     let new_Marca = document.createElement("p");
