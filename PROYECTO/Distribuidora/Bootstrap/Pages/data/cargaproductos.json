@@ -1,6 +1,146 @@
 {
     "Productos": [
         {
+            "ProductoNombre": "Pomelo 3L",
+            "ProductoMarca": "Schweppes",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/Pomelo 3L.png"
+        },
+        {
+            "ProductoNombre": "CocaCola X6",
+            "ProductoMarca": "CocaCola",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/CocaColaX6.png"
+        },
+        {
+            "ProductoNombre": "Cerveza Schneider",
+            "ProductoMarca": "Schneider",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/CervezaSchneider710ml.PNG"
+        },
+        {
+            "ProductoNombre": "Cerveza Heineken",
+            "ProductoMarca": "Heineken",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/CervezaHeineken473.PNG"
+        },
+        {
+            "ProductoNombre": "Cerveza Amstel Lager",
+            "ProductoMarca": "Amstel",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/CervezaAmstelLager.PNG"
+        },
+        {
+            "ProductoNombre": "Vitale X4",
+            "ProductoMarca": "Vitale",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/AguaVitaleX4.PNG"
+        },
+        {
+            "ProductoNombre": "Salus Frute Pomelo",
+            "ProductoMarca": "Salus",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/SalusFrutePomelo.PNG"
+        },
+        {
+            "ProductoNombre": "Salus Frute Manzana",
+            "ProductoMarca": "Salus",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/AguaSalusFruteManzana.PNG"
+        },
+        {
+            "ProductoNombre": "Salus 6.25L",
+            "ProductoMarca": "Salus",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/AguaSalus6.25.PNG"
+        },
+        {
+            "ProductoNombre": "Nativa 3.30L",
+            "ProductoMarca": "Nativa",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/AguaNativa3.30.PNG"
+        },
+        {
+            "ProductoNombre": "Aquarius Naranja",
+            "ProductoMarca": "Aquarius",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/AguaAquariusNaranja.PNG"
+        },
+        {
+            "ProductoNombre": "Aquarius Liminada",
+            "ProductoMarca": "Aquarius",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Bebidas",
+            "imagen": "../Imagenes/Productos/AguaAquariusLiminada.PNG"
+        },
+        {
+            "ProductoNombre": "Sopa de Calabaza",
+            "ProductoMarca": "Monte Cudine",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Alimentos",
+            "imagen": "../Imagenes/Productos/Sopa.png"
+        },
+        {
+            "ProductoNombre": "Pep Rueditas",
+            "ProductoMarca": "Rueditas",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Alimentos",
+            "imagen": "../Imagenes/Productos/PepRueditas150g.PNG"
+        },
+        {
+            "ProductoNombre": "Papas Fritas Pack",
+            "ProductoMarca": "Lays",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Alimentos",
+            "imagen": "../Imagenes/Productos/PapasFritasPack.PNG"
+        },
+        {
+            "ProductoNombre": "Papas Fritas",
+            "ProductoMarca": "Lays",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Alimentos",
+            "imagen": "../Imagenes/Productos/PapasFritasLays400.PNG"
+        },
+        {
+            "ProductoNombre": "Fritas Ruffles",
+            "ProductoMarca": "Ruffles",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Alimentos",
+            "imagen": "../Imagenes/Productos/FritasRuffles150G.PNG"
+        },
+        {
+            "ProductoNombre": "Doritos Queso",
+            "ProductoMarca": "Doritos",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Alimentos",
+            "imagen": "../Imagenes/Productos/DoritosQueso300G.PNG"
+        },
+        {
+            "ProductoNombre": "Arroz 5k",
+            "ProductoMarca": "Blue Patna",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Alimentos",
+            "imagen": "../Imagenes/Productos/Arroz5k.png"
+        },
+        {
+            "ProductoNombre": "3D Barbacoa",
+            "ProductoMarca": "Barbacoa",
+            "PrecioProducto": "130",
+            "ProductoCategoria":"Alimentos",
+            "imagen": "../Imagenes/Productos/3DBarbacoa160.PNG"
+        },
+        {
             "ProductoNombre": "Axe Apollo",
             "ProductoMarca": "Axe",
             "PrecioProducto": "120",
@@ -8,7 +148,7 @@
             "imagen": "../Imagenes/Productos/AxeApollo.png"
         },
         {
-            "ProductoNombre": "Dove Exrteme Shampoo",
+            "ProductoNombre": "Dove Exrteme Sh",
             "ProductoMarca": "Dove",
             "PrecioProducto": "120",
             "ProductoCategoria":"Personal Care",
@@ -71,228 +211,88 @@
             "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Skip Pack Ahorro",
+            "ProductoMarca": "Skip",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/SkipPackAhorrro.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Pastilla Inodoro",
+            "ProductoMarca": "Click",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/PastillaInodoro.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Nevex Ultra",
+            "ProductoMarca": "Nevex",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/NevezUltra.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Nevex Liquido",
+            "ProductoMarca": "Nevex",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/NevezLiquido.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Jane 2L",
+            "ProductoMarca": "Jane",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/Jane2L.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Granby Liquido",
+            "ProductoMarca": "Granby",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/GranbyLiquido.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Detergente Cristal",
+            "ProductoMarca": "Cristal",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/DetergenteCristal.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Cif Limpiador Baño",
+            "ProductoMarca": "Cif ",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/CifLimpiadorBaño.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Cif Detergente",
+            "ProductoMarca": "Cif ",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/CifDetergente.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Aromatizante Jupiter",
+            "ProductoMarca": "Jupiter",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/AromatizanteJupiter.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Lysoform Desinfectante",
+            "ProductoMarca": "Lysoform",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/AerosolLysoformDesinfectante.PNG"
         },
         {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
+            "ProductoNombre": "Glade Perfume y FR",
+            "ProductoMarca": "Glade",
             "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
-        },
-        {
-            "ProductoNombre": "Dove Invisible Man",
-            "ProductoMarca": "Dove",
-            "PrecioProducto": "130",
-            "ProductoCategoria":"Personal Care",
-            "imagen": "../Imagenes/Productos/DoveInvisibleMan.png"
+            "ProductoCategoria":"Limpieza",
+            "imagen": "../Imagenes/Productos/AerosolGladePyFR.PNG"
         }
 
     ]

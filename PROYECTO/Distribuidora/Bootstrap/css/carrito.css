@@ -38,15 +38,9 @@ button {
 }
 img{
     width: 100%;
-    height: 60%;
 }
 
 h4{
     background-color: rgb(212, 164, 73);
     font-family: 'Franklin Gothic Medium';
-}
-
-.Img-Logo2 {
-    height: 50px;
-    width: 80%;
 }

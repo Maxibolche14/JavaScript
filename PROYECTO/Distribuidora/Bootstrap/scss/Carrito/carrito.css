@@ -10,8 +10,8 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 4% 100% 12%;
-      grid-template-rows: 4% 100% 12%;
+  -ms-grid-rows: 10% 100% 12%;
+      grid-template-rows: 10% 100% 12%;
   grid-row-gap: 3px;
       grid-template-areas: "header header"
  "main main"
