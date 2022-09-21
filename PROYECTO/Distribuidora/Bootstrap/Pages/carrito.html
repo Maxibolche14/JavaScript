@@ -20,7 +20,7 @@
 
 </head>
 
-<body  class="grid">
+<body class="grid">
     <header id="header">
         <nav class="navbar navbar-danger navbar-expand-lg" style="background-color: #ffffff;">
             <div class="container-fluid">
@@ -65,6 +65,81 @@
             <div class="fondo">
                 <h3>Carrito</h3>
             </div>
+            <div class="row clearfix">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                    <div class="card">
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div style="text-align: -webkit-center;">
+                                                <img class="img-producto"
+                                                    src="../Imagenes/Productos/DoveInvisibleMan.png">
+                                            </div>
+                                            <p style="margin-bottom: 3px;">
+                                                Precio unitario: ${{producto.PreciosListaPrecio}}
+                                            </p>
+                                            <p style="margin-bottom: 3px;color: green;">
+                                                Descuentos aplicados: ${{producto.DescuentoMonto}}
+                                            </p>
+                                            <p style="margin-bottom: 3px;color: #d16508;">
+                                                Impuestos: ${{producto.Impuesto}}
+                                            </p>
+                                            <div class="row" style="align-items: center;">
+                                                <p style="margin-bottom: 3px;white-space: nowrap;margin-right: 10px;"
+                                                    class="col-xl-5 col-lg-5 col-md-12 col-sm-12 mb-2">
+                                                    <b>Total: ${{producto.Total}}</b>
+                                                </p>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2"
+                                                    style="margin-top: 5px;">
+
+                                                    <input matInput type="number" required min="0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="pricingTable redColor">
+                            <div class="pricingTable-header">
+                                <img class="imgcaja" src="../Imagenes/Caja.png" alt="">
+                                <div class="price-value"> $150000
+                                </div>
+                            </div>
+                            <h3 class="heading">TOTAL</h3>
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>
+                                        <b>$1500</b> Impuestos
+                                    </li>
+                                    <li>
+                                        <b>$40</b> Subtotal
+                                    </li>
+                                    <li *ngIf="totalDescuentos >0">
+                                        <b>$33000</b> Descuentos aplicados
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pricingTable-signup" style="cursor: pointer;">
+                                <a>Comprar</a>
+                            </div>
+                            <div class="pricingTable-signup" style="cursor: pointer;margin-top: 10px;">
+                                <a style="background: #247a52;">Vaciar carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -92,6 +167,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+        <script src="/js/clases.js"></script>
 
 </body>
 

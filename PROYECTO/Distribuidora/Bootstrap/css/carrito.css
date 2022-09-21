@@ -44,3 +44,103 @@ h4{
     background-color: rgb(212, 164, 73);
     font-family: 'Franklin Gothic Medium';
 }
+
+.pricingTable {
+    text-align: center;
+    background: #fff;
+    margin: 0 -10px;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all 0.5s ease 0s;
+}
+.pricingTable .pricingTable-header {
+    padding: 40px 0;
+    background: #f5f6f9;
+    border-radius: 10px 10px 50% 50%;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable.redColor .heading {
+    color: #000000;
+}
+
+.pricingTable:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+.pricingTable.redColor:hover .pricingTable-header {
+    background: #FF9624;
+}
+.pricingTable:hover .pricingTable-header i {
+    color: #fff;
+}
+.pricingTable .pricingTable-header i {
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all 0.5s ease 0s;
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #130e08;
+}
+.pricingTable .pricingTable-signup a {
+    display: inline-block;
+    font-size: 15px;
+    color: white !important;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: #ffa442;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.imgcaja{
+    width: 50%;
+    height: 50%;
+}
+
+.price-value{
+    color: black;
+    font-weight: bold;
+}
+
+li{
+    color: black;
+    list-style-type:none ;
+}
+
+.card {
+    background: #fff;
+    min-height: 50px;
+    position: relative;
+    margin-bottom: 24px;
+    border: 1px solid #f2f4f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(183 192 206 / 20%);
+    -webkit-box-shadow: 0 0 10px 0 rgb(183 192 206 / 20%);
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+.card .body {
+    font-size: 14px;
+    color: #555;
+    padding: 15px;
+}
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+    background: #fff;
+    color: rgba(0,0,0,.87);
+}
+.mat-card {
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px #a7a7a7 !important;
+}
+
