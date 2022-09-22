@@ -13,7 +13,7 @@
         diferentes maras y portafolio.">
     <link rel="stylesheet" href="/Distribuidora/Bootstrap/scss/Carrito/carrito.css">
     <link rel="stylesheet" href="/Distribuidora/Bootstrap/css/carrito.css">
-    <script src="/js/ModProductos.js"></script>
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -69,45 +69,11 @@
                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                     <div class="card">
                         <div class="body">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div style="text-align: -webkit-center;">
-                                                <img class="img-producto"
-                                                    src="../Imagenes/Productos/DoveInvisibleMan.png">
-                                            </div>
-                                            <p style="margin-bottom: 3px;">
-                                                Precio unitario: ${{producto.PreciosListaPrecio}}
-                                            </p>
-                                            <p style="margin-bottom: 3px;color: green;">
-                                                Descuentos aplicados: ${{producto.DescuentoMonto}}
-                                            </p>
-                                            <p style="margin-bottom: 3px;color: #d16508;">
-                                                Impuestos: ${{producto.Impuesto}}
-                                            </p>
-                                            <div class="row" style="align-items: center;">
-                                                <p style="margin-bottom: 3px;white-space: nowrap;margin-right: 10px;"
-                                                    class="col-xl-5 col-lg-5 col-md-12 col-sm-12 mb-2">
-                                                    <b>Total: ${{producto.Total}}</b>
-                                                </p>
-                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2"
-                                                    style="margin-top: 5px;">
-
-                                                    <input matInput type="number" required min="0">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
+                            <div id="listadoCarrito" style="margin-top: 8px; justify-content: center;" class="row">
                             </div>
                         </div>
                     </div>
                 </div>
-
-
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="col-md-12 col-sm-12">
                         <div class="pricingTable redColor">
@@ -139,7 +105,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     </main>
 
@@ -168,9 +133,11 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="/js/clases.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.3/bootbox.min.js" integrity="sha512-U3Q2T60uOxOgtAmm9VEtC3SKGt9ucRbvZ+U3ac/wtvNC+K21Id2dNHzRUC7Z4Rs6dzqgXKr+pCRxx5CyOsnUzg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.3/bootbox.min.js"
+        integrity="sha512-U3Q2T60uOxOgtAmm9VEtC3SKGt9ucRbvZ+U3ac/wtvNC+K21Id2dNHzRUC7Z4Rs6dzqgXKr+pCRxx5CyOsnUzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/js/carrito.js"></script>
-
+    <script src="/js/ModProductos.js"></script>
 
 </body>
 
