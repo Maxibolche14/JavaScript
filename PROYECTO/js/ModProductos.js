@@ -39,10 +39,9 @@ function generar_card(producto) {
     new_Agregar.textContent = "Agregar";
     new_Agregar.id = producto.id;
     new_Agregar.onclick = function (producto) {
-        //ohSnap('Producto Agregado correctamente', {color:'green', duration:"500000"});  // alert will have class 'alert-color'
-       agregarProducto(producto.target.id);
+        ohSnap('Producto Agregado correctamente', { color: 'green', duration: "800" });  // alert will have class 'alert-color'
+        agregarProducto(producto.target.id);
     }
-
 
     div_container.appendChild(new_Nombre);
     div_container.appendChild(new_Marca);
@@ -51,11 +50,6 @@ function generar_card(producto) {
     new_div.appendChild(div_container);
 
     lista.appendChild(new_div);
-
-}
-
-function mostraralerta() {
-    ohSnap('Producto Agregado correctamente', { color: 'green', duration: "500000" });  // alert will have class 'alert-color'
 
 }
 

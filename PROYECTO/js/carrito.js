@@ -7,10 +7,8 @@ let Subtotal = document.getElementById("Subtotal");
 function cargoProductos() {
 
     listaCarrito = Storage.getLocalStorage('carrito');
-    console.log(listaCarrito);
     generar_card(listaCarrito);
     calculoTotal(listaCarrito);
-    console.log(total);
 
 }
 
@@ -68,11 +66,23 @@ function calculoTotal(listaCarrito) {
 
 
 function calculoSubTotal(valortotal) {
-    let Subtotal = 0;
+    let valorIva = 0;
+    let valorSubtotal = 0;
 
-    Subtotal = parseInt(valortotal) / 0.22;
-
+    valorIva= (parseInt(valortotal) * 0.22) ;
+    valorSubtotal = (parseInt(valortotal) - (parseInt(valorIva)));
+    Subtotal.textContent = "Sub Total: $ " + parseInt(valorSubtotal);
 }
 
+Eliminar.addEventListener("click", () => {
 
+    listadoCarrito.innerHTML = "";
+    ohSnap('Carrito Eliminado correctamente', { color: 'red', duration: "1000" })
 
+});
+
+Comprar.addEventListener("click", () => {
+
+    ohSnap('Debe registrarse para realizar una compra.', { color: 'orange', duration: "5000" })
+
+});

@@ -1,5 +1,4 @@
-/* DEFINO CLASE PRODUCTOS*/
-class Producto {
+/*class Producto {
 
     constructor(ProductoNombre, ProductoMarca,PrecioProducto,ProductoImagen) {
 
@@ -21,5 +20,5 @@ class Producto {
 
     }
 }
-
+*/
 
